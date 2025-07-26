@@ -1,0 +1,1 @@
+fetch("https://www.dewipemikat.com/api/report", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ brand: "netpro", domain: window.location.hostname, expired: "2025-08-01", status: "aktif", kategori: "normal", catatan: "Dari JS Agent", api_key: "NETPRO-KEY" }) });
